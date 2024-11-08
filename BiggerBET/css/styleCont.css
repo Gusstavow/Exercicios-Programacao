@@ -1,0 +1,48 @@
+body{
+   
+}
+
+.c-contato{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-image: url(../img/bg/ben10a.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-right:3px solid  rgb(204, 13, 131);
+    border-left:3px solid  rgb(204, 13, 131);
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.c-contato p{
+    padding: 10px;
+    font-size: 1.4em;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 100px;
+}
+
+
+
+.c-contato strong{
+    
+    font-family: alien;
+    font-size: 1.3em;
+    color: rgb(245, 237, 210);
+
+
+   
+}
