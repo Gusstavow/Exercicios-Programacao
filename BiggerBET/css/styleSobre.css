@@ -1,0 +1,59 @@
+.alien{
+    font-family: alien;
+    font-size: 2em;
+}
+
+.cont-sobre{
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    margin: auto;
+    width: 70vw;
+    background-color: saddlebrown;
+    background-image: url(../img/bg/ovni.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+    padding: 20px;
+    border-left: 2px solid rgb(255, 0, 179);
+    border-right: 2px solid rgb(255, 0, 179);
+
+    
+}
+
+.img-sticky{
+    z-index: 0;
+    width: 300px;
+    height: 300px;
+    
+    position: sticky;
+    top: 0px;
+    background-image: url(../img/imgLogo/logo1\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   transition: 1s all;
+   border-radius: 30px;
+}
+
+.cont-sobre .alien{
+    width: 50%;
+    z-index: 1;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.644);
+    padding: 50px 100px;
+    border-radius: 20px;
+    
+}
+
+
+.img-sticky:hover{
+    background-image: url(../img/bg/ovniabdu2.webp);
+    transform: scale(1.2);
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
