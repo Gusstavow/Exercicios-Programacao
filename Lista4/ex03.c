@@ -9,7 +9,7 @@ int main()
     printf("Informe a nota do aluno: \n");
     scanf("%i", &num);
 
-    printf("a nota %i é equivalente a: %c", num, nota(num));
+    printf("a nota %i eh equivalente a: %c", num, nota(num));
 
     return 0;
 }
