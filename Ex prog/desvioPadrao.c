@@ -13,8 +13,8 @@ void calcDesvioPadrao(const double *notas, int numNotas, double media, double *d
 }
 
 int main(){
-    int numNotas;
-    printf();
+    
+    
 
     return 0;
 }
